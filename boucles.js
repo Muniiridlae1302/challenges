@@ -31,12 +31,22 @@ for (i = 1 ; i <= b ; i++) {
     
 }
 console.log(c);
+
+let n = Number(prompt("donnez unnombre:"));
+for(i = 0 ; i <= n; i++){
+    if ( i % 2 === 0){
+        console.log(i);
+    }
+}
 */
 
+let nombre = parseInt(prompt("entrez nombre:"));
 
 
-
-
+for(i = 0; i >= 5 ; i++ ){
+    
+    console.log()
+}
 
 
 
