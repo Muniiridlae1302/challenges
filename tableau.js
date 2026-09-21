@@ -84,29 +84,29 @@ for(let i = 0; i < a ; i++ ) {
    tabz.push(result)
 }
 console.log(tabz);
-*/
 //challenge 7
 
 let up = Number(prompt("entrez gruop de nombre :"));
 let h = [];
 let r= 0
-for(let i = 0 ; i < up ; i++){
-    let n = Number(prompt("entrez nombre :"));
-h.push(n);}
-  
-   if(r > h[i+1]){
-    r=h[i]
-    h[i]=h[i+1]
-    h[i+1]=r;
-
- 
+for(let i = 0 ; i > up+1 ; i++){
+    // let n = Number(prompt("entrez nombre :"));
+    // h.push(n);}
+    for(let r=i+1; i<i-1 )
+    // if(r > h[i+1]){
+    // r=h[i]
+    // h[i]=h[i+1]
+    // h[i+1]=r;
     
     
-//
+    
+    
+    
     
 }
-    console.log( h);
+console.log( h);
 
+*/
 
 
 
